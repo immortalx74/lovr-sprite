@@ -35,7 +35,7 @@ local sprite_shader = lovr.graphics.newShader( [[
 	int rows;
 };
 
-buffer instance_data{ InstanceData ins_data[]; };
+readonly buffer instance_data{ InstanceData ins_data[]; };
 
 flat out vec2 cell_coords;
 flat out vec2 colrow_count;
